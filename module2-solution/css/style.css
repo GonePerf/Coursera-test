@@ -21,7 +21,6 @@ section {
 	position: relative;
 }
 #title {
-	background: #EcEcEc;
 	font-size: 125%;
 	font-weight: 500;
 	padding: 4px;
@@ -30,6 +29,16 @@ section {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+#s1 > #title {
+	background: #EcEcEc;
+}
+#s2 > #title {
+	background: red;
+	color: white;
+}
+#s3 > #title {
+	background: lightblue;
 }
 
 /********** Large devices only **********/
