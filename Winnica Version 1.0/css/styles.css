@@ -70,6 +70,7 @@ body {
 #nav-list a {
   color: white;
   text-align: center;
+  padding-top: 27px;
 }
 #nav-list a:hover {
   background: black;
@@ -85,7 +86,7 @@ body {
 }
 #phone a { /* Phone number */
   text-align: right;
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 #phone div { /* We Deliver */
   color: #557c3e;
