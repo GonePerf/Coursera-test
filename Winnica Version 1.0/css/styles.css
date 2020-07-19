@@ -5,6 +5,25 @@ body {
 }
 
 /** HEADER **/
+
+/* SLIDER */
+#lang {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+#lang button {
+
+  color: white;
+  background-color: #222222;
+}
+#change-lang {
+  color: white;
+  background-color: #222222;
+  width: 30px;
+
+}
+/* */
 #header-nav {
   background-color: #222222;
   border-radius: 0;
@@ -12,9 +31,9 @@ body {
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
+  background: url('../images/restaurant-logo_medium.png') no-repeat;
+  width: 120px;
+  height: 110px;
   margin: 10px 15px 10px 0;
 }
 
@@ -131,6 +150,9 @@ body {
   border: 2px solid #3F0C1F;*/
   overflow: hidden;
 }
+#map-tile {
+  align-items: center;
+}
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 10px 20px 8px #cccccc;
 }
@@ -149,7 +171,6 @@ body {
   width: 100%;
   text-align: center;
   font-size: 1.6em;
-  text-transform: uppercase;
   background-color: #000;
   color: #fff;
   opacity: .8;
